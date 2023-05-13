@@ -4,8 +4,7 @@ on:
   pull_request:
     branches:
       - 4.x
-
-    workflow_dispatch:
+  workflow_dispatch:
 
 jobs:
   Ubuntu2004-ARM64:

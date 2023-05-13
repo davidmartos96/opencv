@@ -5,6 +5,8 @@ on:
     branches:
       - 4.x
 
+    workflow_dispatch:
+
 jobs:
   Ubuntu2004-ARM64:
     uses: davidmartos96/ci-gha-workflow/.github/workflows/OCV-PR-4.x-ARM64.yaml@main
